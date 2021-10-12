@@ -3,7 +3,12 @@ body {
   padding-top: 258px;
 }
 
-figure {
+.blocks {
+  position: fixed;
+  top: 24px;
+}
+
+.block {
   border: 5px solid purple;
   margin: 0;
   margin-right: 24px;
@@ -11,37 +16,26 @@ figure {
   background: white;
 }
 
-figcaption {
+.block_left {
+  float: left;
+}
+
+.block_right {
+  float: right;
+}
+
+.block__caption {
   font-size: 20px;
   line-height: 24px;
   text-align: center;
 }
 
-figure img {
+.block__image {
   display: block;
   width: 300px;
   height: 200px;
 }
 
-.Block_1,
-.Block_2 {
-  position: fixed;
-  top: 24px;
-}
-.Block_2 {
-  left: 358px;
-}
-
-.Block_3,
-.Block_4,
-.Block_5 {
-  float: left;
-}
-
-hr {
+.delimeter {
   clear: both;
-}
-
-footer {
-
 }
