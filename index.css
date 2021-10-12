@@ -3,7 +3,7 @@ body {
   padding-top: 258px;
 }
 
-.blocks {
+#fixed-blocks {
   position: fixed;
   top: 24px;
 }
@@ -36,6 +36,6 @@ body {
   height: 200px;
 }
 
-.delimeter {
+#delimeter {
   clear: both;
 }
