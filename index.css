@@ -1,0 +1,47 @@
+body {
+  margin: 24px;
+  padding-top: 258px;
+}
+
+figure {
+  border: 5px solid purple;
+  margin: 0;
+  margin-right: 24px;
+  margin-bottom: 24px;
+  background: white;
+}
+
+figcaption {
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+
+figure img {
+  display: block;
+  width: 300px;
+  height: 200px;
+}
+
+.Block_1,
+.Block_2 {
+  position: fixed;
+  top: 24px;
+}
+.Block_2 {
+  left: 358px;
+}
+
+.Block_3,
+.Block_4,
+.Block_5 {
+  float: left;
+}
+
+hr {
+  clear: both;
+}
+
+footer {
+
+}
